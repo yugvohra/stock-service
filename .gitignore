@@ -1,3 +1,4 @@
+.env
 ##############################
 ## Java
 ##############################
@@ -21,8 +22,6 @@ pom.xml.bak
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
 
 ##############################
 ## Gradle

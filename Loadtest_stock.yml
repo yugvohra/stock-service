@@ -1,0 +1,18 @@
+config:
+  target: "{{ $processEnvironment.APP_URL }}"
+  phases:
+    - duration: 10
+      arrivalRate: 700
+  defaults:
+    headers:
+      Content-Type: "application/json"
+  tls:
+    rejectUnauthorized: false
+
+scenarios:
+  - name: "Request IBM stock"
+    flow:
+      - get:
+          url: "/stockservice/IBM"
+          expect:
+            - statusCode: 200
