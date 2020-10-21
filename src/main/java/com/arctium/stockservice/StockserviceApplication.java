@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StockserviceApplication {
   /**
    * Entry point of Stock Service Application
-   * @param args
+   * @param args from command line
    */
   public static void main(final String[] args) {
     SpringApplication.run(StockserviceApplication.class, args);
