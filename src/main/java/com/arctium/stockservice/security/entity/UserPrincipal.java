@@ -1,0 +1,1 @@
+package com.arctium.stockservice.security.entity;import lombok.AllArgsConstructor;import lombok.Data;import java.util.List;@Data@AllArgsConstructorpublic class UserPrincipal {    private final String username;    private final List<String> roles;}
